@@ -1,0 +1,10 @@
+# To Remember
+# Size of all hidden files
+du -hc ~/.[^.]*
+# Dropbox exclude files
+~/bin/dropbox.py exclude add
+
+# Compare tool
+comm --help
+# List all installed packages (by you)
+cat /var/log/apt/history.log | grep apt-get install | cut -f4- -d  | sort | uniq > installed-software.txt
