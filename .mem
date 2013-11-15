@@ -7,4 +7,4 @@ du -hc ~/.[^.]*
 # Compare tool
 comm --help
 # List all installed packages (by you)
-cat /var/log/apt/history.log | grep apt-get install | cut -f4- -d  | sort | uniq > installed-software.txt
+cat /var/log/apt/history.log | grep "apt-get install" | cut -f4- -d " " | sort | uniq > installed-software.txt
