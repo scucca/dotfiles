@@ -17,3 +17,9 @@ compush() {
 git commit -am $1;
 git push origin master;
 }
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+# added by travis gem
+[ -f /home/scucca/.travis/travis.sh ] && source /home/scucca/.travis/travis.sh
