@@ -7,6 +7,6 @@ fi
 
 # User specific environment and startup programs
 
-PATH=$PATH:$HOME/bin:$HOME/bin/fu:$HOME/.tmuxifier/bin
+PATH=$PATH:$HOME/bin:$HOME/fu:$HOME/.tmuxifier/bin
 
 export PATH
