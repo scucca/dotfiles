@@ -6,4 +6,4 @@ alias sapt='sudo apt-get'
 alias ssh8='ssh scucca@files.8bit.is'
 alias sshdb='ssh scucca@davebuntu'
 alias sshgq='ssh ubuntu@46.149.24.44'
-
+alias saptupup='sudo apt-get update && sudo apt-get -y upgrade'
