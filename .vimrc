@@ -12,3 +12,4 @@ filetype plugin indent on
 map <C-p> :w<CR>:!python %<CR>
 set omnifunc=jedi#complete
 inoremap <C-space> <C-x><C-o>
+autocmd FileType python nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<cr>
